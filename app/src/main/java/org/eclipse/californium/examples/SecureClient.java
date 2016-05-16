@@ -68,7 +68,7 @@ public class SecureClient {
 	}
 
 	public void test(String u) {
-				
+
 		URI uri = null;
 		
 		//String u = "coaps://localhost/secure";

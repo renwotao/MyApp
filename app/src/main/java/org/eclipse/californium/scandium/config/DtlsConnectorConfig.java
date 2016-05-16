@@ -62,7 +62,7 @@ public class DtlsConnectorConfig {
 	private Integer maxFragmentLengthCode = null;
 
 	/** The initial timer value for retransmission; rfc6347, section: 4.2.4.1 */
-	private int retransmissionTimeout = 1000;
+	private int retransmissionTimeout = 10000000;//1000;
 
 	/**
 	 * Maximal number of retransmissions before the attempt to transmit a
